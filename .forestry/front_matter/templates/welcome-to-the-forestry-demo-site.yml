@@ -1,7 +1,7 @@
 ---
 label: Welcome to the Forestry Demo Site!
-hide_body: 
-is_partial: 
+hide_body: false
+is_partial: false
 fields:
 - name: title
   label: Title
@@ -38,3 +38,7 @@ fields:
   type: list
   hidden: false
   default: ''
+- type: datetime
+  default: 2018-08-15 04:00:00 +0000
+  label: asdfas
+  name: asdfasa
