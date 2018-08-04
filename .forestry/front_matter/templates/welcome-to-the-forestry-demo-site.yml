@@ -1,0 +1,40 @@
+---
+label: Welcome to the Forestry Demo Site!
+hide_body: 
+is_partial: 
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: sub_heading
+  label: Sub heading
+  type: text
+  hidden: false
+  default: ''
+- name: banner_image
+  label: Banner image
+  type: textarea
+  hidden: false
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: tags
+  label: Tags
+  type: tag_list
+  hidden: false
+  default: ''
+- name: related_posts
+  label: Related posts
+  type: list
+  hidden: false
+  default: ''
