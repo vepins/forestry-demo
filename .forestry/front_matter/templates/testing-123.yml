@@ -23,3 +23,5 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
+pages:
+- testing.html
