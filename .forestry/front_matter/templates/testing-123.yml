@@ -1,0 +1,17 @@
+---
+label: Testing 123
+hide_body: false
+is_partial: false
+fields:
+- type: select
+  config:
+    source:
+      type: datafiles
+- type: text
+  default: Cerulean
+  label: What is your favorite color?
+  name: fav_color
+  description: Tell us your favorite color.
+  hidden: false
+  config:
+    required: true
