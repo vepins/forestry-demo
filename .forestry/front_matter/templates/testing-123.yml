@@ -15,3 +15,11 @@ fields:
   hidden: false
   config:
     required: true
+- type: textarea
+  default: Bugs, apples, bees
+  label: What is your favorite?
+  name: what_is_your_favorite_
+  config:
+    wysiwyg: false
+    schema:
+      format: markdown
